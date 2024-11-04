@@ -2,16 +2,12 @@
 export default {
   CSS: "~/assets/css/tailwind.css",
   content: [
-    "~/components/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "~/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "~/pages/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "~/plugins/**/*.{js,ts,mjs}",
-    "~/composables/**/*.{js,ts,mjs}",
-    "~/utils/**/*.{js,ts,mjs}",
-    "~/{A,a}pp.{vue,js,jsx,mjs,ts,tsx}",
-    "~/{E,e}rror.{vue,js,jsx,mjs,ts,tsx}",
-    "~/app.config.{js,ts,mjs}",
-    "~/app/spa-loading-template.html",
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
   ],
   theme: {
     extend: {},
