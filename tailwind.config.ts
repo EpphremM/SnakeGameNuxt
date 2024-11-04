@@ -14,11 +14,11 @@ export default {
     extend: {
       colors: {
         dark: {
-          bg: "#03130c",
-          "bg-lighter": "#242225",
-          "bright-yellow": "#f0d800",
-          "bright-green": "#03ae34",
-          "lighter-gray": "#cbd2ce",
+          bg: "#0f1116",
+          "bg-lighter": "#1d1e24",
+          "normal-text": "#fffeff",
+          "special-bg": "#0052b3",
+          "sub-text": "#d4dbe7",
           "darker-gray": "#4c5345",
         },
       },
