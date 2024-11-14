@@ -25,6 +25,7 @@ const init = async (): Promise<Connection | null> => {
     return null;
   }
 };
+
 const close = async (): Promise<void> => {
   try {
     await mongoose.connection.close();
@@ -36,6 +37,7 @@ const close = async (): Promise<void> => {
     );
   }
 };
+
 const mongooseConnection = {
   init,
   close,
